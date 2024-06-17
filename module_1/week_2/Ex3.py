@@ -1,5 +1,5 @@
 # Testing variables
-test_file_path = 'Module 1\Week 2\P1_data.txt'
+test_file_path = 'module_1\week_2\P1_data.txt'
 
 
 # Define function
