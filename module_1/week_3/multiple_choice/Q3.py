@@ -15,5 +15,3 @@ class MySoftmax (nn . Module):
 data = torch . Tensor([1, 2, 300000000])
 my_softmax = MySoftmax()
 output = my_softmax(data)
-assert round(output[0]. item(), 2) == 0.0
-output

@@ -2,13 +2,11 @@ import torch
 import torch.nn as nn
 
 data = torch.Tensor([1, 2, 3])
-data
 
 tensor([1., 2., 3.])
 
 softmax_function = nn.Softmax(dim=0)
 output = softmax_function(data)
-output
 
 tensor([0.0900, 0.2477, 0.6652])
 
@@ -25,7 +23,6 @@ class Softmax(nn.Module):
 
 softmax_1 = Softmax()
 output = softmax_1(data)
-output
 
 tensor([0.0900, 2.447, 0.6652])
 
@@ -43,9 +40,7 @@ class StableSoftmax(nn.Module):
 
 stable_softmax_1 = StableSoftmax()
 output = stable_softmax_1(data)
-output
 
 tensor([0.0900, 0.2447, 0.6652])
 
-data
 tensor([1., 2., 3.])

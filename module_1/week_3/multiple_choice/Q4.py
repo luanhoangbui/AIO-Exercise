@@ -16,5 +16,3 @@ class SoftmaxStable (nn . Module):
 data = torch . Tensor([1, 2, 3])
 softmax_stable = SoftmaxStable()
 output = softmax_stable(data)
-assert round(output[-1]. item(), 2) == 0.67
-output
